@@ -1,0 +1,41 @@
+{
+  "name": "boundary",
+  "version": "0.0.0",
+  "description": "function descriptions and hooks with pluggable interface",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openappjs/boundary"
+  },
+  "keywords": [
+    "openvocab",
+    "boundary",
+    "entity",
+    "schema",
+    "json-schema",
+    "method",
+    "hooks",
+    "pre",
+    "post"
+  ],
+  "author": "ahdinosaur",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/openappjs/boundary/issues"
+  },
+  "homepage": "https://github.com/openappjs/boundary",
+  "dependencies": {
+    "afterfn": "^2.1.1",
+    "beforefn": "^2.3.1",
+    "debug": "^2.1.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  }
+}
